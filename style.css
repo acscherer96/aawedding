@@ -69,19 +69,4 @@ button:hover {
 .icloud-link:hover {
   background-color: #636B2F;
 }
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
-  margin-top: 20px;
-}
 
-.gallery img {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 8px #ccc;
-}
-
-.photo-container {
-  margin-bottom: 30px;
-}
