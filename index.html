@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AAwedding.com</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Thank you for coming to our wedding! Please post your pictures here for a fun collection of memories.</h2>
+    <h2>Gracias por venir a nuestra boda! Por favor publique sus fotos aqui para una divertida coleccion de recuerdos.</h2>
+
+    <p>Upload your photos here!</p>
+    <p>Sube tus fotos aqui!</p>
+
+    <a class="drive-link" href="https://drive.google.com/drive/folders/YOUR_FOLDER_ID" target="_blank">
+      📁 Click here to upload to our shared folder
+    </a>
+
+    <form id="upload-form">
+      <input type="text" id="name" placeholder="Name // Nombre" required />
+      <input type="file" id="photo" accept="image/*" required />
+      <button type="submit">Preview // Vista previa</button>
+    </form>
+
+    <h2>Live Gallery // Galeria en Vivo</h2>
+    <div id="gallery" class="gallery"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

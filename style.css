@@ -1,0 +1,73 @@
+body {
+  font-family: 'Papyrus', sans-serif;
+  background: #89cff0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: black;
+  font-size: 2.5em;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #b2ac88;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9e966d;
+}
+
+.drive-link {
+  display: inline-block;
+  margin: 10px 0 20px;
+  padding: 10px 15px;
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.drive-link:hover {
+  background-color: #f0c200;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ccc;
+}
+
+.photo-container {
+  margin-bottom: 30px;
+}
