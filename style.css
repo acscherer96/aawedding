@@ -12,6 +12,16 @@ body {
   margin: auto;
 }
 
+.container-links {
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+  width: 200px; /* change the width of the container */
+  height: 100px; /* change the height of the container */
+  border-radius: 10px; /* change the border-radius to make the corners round */
+  background-color: blue; 
+}
+
 h1, h2 {
   color: black;
   font-size: 2.5em;
