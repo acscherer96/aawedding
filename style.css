@@ -8,17 +8,17 @@ body {
 
 .container {
   padding: 40px;
-  max-width: 700px;
+  max-width: 200px;
   margin: auto;
-  width: 1200px; /* change the width of the container */
-  height: 600px; /* change the height of the container */
+  width: 200px; /* change the width of the container */
+  height: 1200px; /* change the height of the container */
   border-radius: 10px; /* change the border-radius to make the corners round */
   background-color: #FFFFF0;
 }
 
 .container-links {
   padding: 40px;
-  max-width: 700px;
+  max-width: 200px;
   margin: auto;
   width: 200px; /* change the width of the container */
   height: 600px; /* change the height of the container */
